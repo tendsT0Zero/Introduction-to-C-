@@ -8,3 +8,7 @@ Console.WriteLine("Default data type of user input is: " + userInput.GetType());
 string stringData=" this is an introduction to C#, say hello world using c#";
 
 // Operations on string data type using Library functions:
+
+// Find length of string:
+int lengthOfString = stringData.Length;
+Console.WriteLine("Length of string is: " + lengthOfString);
