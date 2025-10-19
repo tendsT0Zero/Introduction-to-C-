@@ -20,3 +20,7 @@ foreach (var word in words)
     Console.Write(word+" ");
 }
 Console.WriteLine();
+
+// substring 
+string substring = stringData.Substring(10, 7);// starting from index 10, length 7
+Console.WriteLine("Substring from index 10 with length 5 is: " + substring);
